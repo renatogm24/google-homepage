@@ -1,0 +1,22 @@
+.Aligner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 250px;
+  }
+  
+  .Aligner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 30px;
+  }
+
+  input {
+    width: 50%;
+    border-radius: 50px;
+    height: 38px;
+    border-width: 1px;
+  }
+  
+  
