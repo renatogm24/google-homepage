@@ -1,17 +1,49 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div>
-            <div class="Aligner">
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
-            </div>
-            <div class="Aligner" style="margin-top: 30px;">
-                <input type="text" id="input1" name="input1">
-            </div>
-        </div> 
-    </body>
+<html lang="es" >
+<head>
+	<meta charset="UTF-8">
+	<title>Google-Homepage</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header id="header">
+	<ul>
+		<li><a href="#" class="link">Gmail</a></li>
+		<li><a href="#" class="link">Imágenes</a></li>
+		<li><a href="" class="square-button"></a></li>
+		<li><a href="#" id="sign-in" target="_top"><strong>Iniciar sesión</strong></a></li>
+</ul>
+</header>
+<main class="content">
+	<div id="logobox">
+		<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" id="logo">
+	</div>
+	<div id="search-box">
+		<div class="lupa"></div>	
+		<form action="" id="formulario">
+			<input type="text" id="search-bar" maxlength="2048">
+		</form>
+	</div>
+	<div class="search-buttons">
+		<input type="submit" value="Buscar con Google">
+		<input type="submit" value="Me siento con suerte">
+	</div>
+</main>
+<footer class="footer">
+	<div>
+		<ul>
+			<li id="country">Perú</li>
+		</ul>
+		<ul>
+			<li><a href="">Publicidad</a></li>
+			<li><a href="">Negocios</a></li>
+			<li><a href="">Sobre Google</a></li>
+			<li><a href="">Cómo funciona la Búsqueda</a></li>
+			<li class="push-right"><a href="">Privacidad</a></li>
+			<li ><a href="">Condiciones</a></li>
+			<li ><a href="">Preferencias</a></li>
+		</ul>
+	</div>
+</footer>
+</body>
 </html>
-
