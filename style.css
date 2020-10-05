@@ -1,22 +1,25 @@
-.Aligner1 {
+.Aligner {
     display: flex;
     justify-content: center;
     align-items: center; 
     margin-top: 250px;
   }
-  
-  .Aligner2 {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    margin-top: 30px;
-  }
 
   input {
+    border: 1px solid #cccccc;
     width: 50%;
-    border-radius: 50px;
-    height: 38px;
+    border-radius: 30px;
+    height: 42px;
     border-width: 1px;
   }
-  
+
+  *:focus {
+    outline: none;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+input:hover {
+    outline: none;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 2px 2px rgba(0, 0, 0, 0.05);
+}
   
